@@ -19,7 +19,7 @@ pipeline {
 
     environment {
         // Docker Hub repository used for the application image.
-        IMAGE_NAME = 'anishdude/isec6000-node-app'
+        IMAGE_NAME = 'dude4693/isec6000-node-app'
 
         // Unique image tag based on the Jenkins build number.
         IMAGE_TAG = "${BUILD_NUMBER}"
